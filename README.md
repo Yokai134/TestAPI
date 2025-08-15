@@ -1,2 +1,1 @@
-Скрипт из Data\full_dump.sql выполнить в созданной базе через QueryTool в pgAdmin(или другая СУБД). В TesttaskdbContext protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilde 
-=> optionsBuilder.UseNpgsql("Host=localhost;Port=5433;Database=123;Username=postgres;Password=Asdfg123");. Изменить строку подключения на вашу. Тоже самое сделать в файле appsettings.json изменить "DefaultConnection".
+
