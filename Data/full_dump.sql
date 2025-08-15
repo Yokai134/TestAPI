@@ -993,7 +993,10 @@ ALTER TABLE ONLY public.shippingresources
 ALTER TABLE ONLY public.shippingdocument
     ADD CONSTRAINT statusid_fk FOREIGN KEY (statusid) REFERENCES public.status(id) NOT VALID;
 
-
+INSERT INTO public.status (statusname) VALUES 
+('Подписан'),
+('Отозван'),
+('В ожидании');
 -- Completed on 2025-08-15 17:10:48
 
 --
